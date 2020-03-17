@@ -1,0 +1,10 @@
+{
+    "version": "2.0.0",
+    "cdn": ["st.wechatpay.com.my", "mqq-imgcache.gtimg.cn", "st.moneydata.hk"],
+    "imageType": ["jpeg", "jpg", "png", "gif", "webp"],
+    "nonModPack": false,
+    "buildPage": false,
+    "md5File": false,
+    "modReference": false,
+    "openBuildJsencrypt": false
+}

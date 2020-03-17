@@ -1,0 +1,1007 @@
+[2020-03-17T17:30:10.943] [INFO] buildLog - 构建版本: 2.0.0
+[2020-03-17T17:30:10.944] [INFO] buildLog - buildPage: false
+[2020-03-17T17:30:10.944] [INFO] buildLog - md5File: false
+[2020-03-17T17:30:10.945] [INFO] buildLog - nonModPack: false
+[2020-03-17T17:30:10.945] [INFO] buildLog - 构建参数:
+{
+    "htmlversion": "",
+    "cdnversion": "",
+    "debug": false,
+    "compressFlag": true,
+    "cacheFlag": true,
+    "splitFlag": true,
+    "urlbase": "https://mqq-imgcache.gtimg.cn/res/",
+    "compressApi": "https://mqq-imgcache.gtimg.cn/c/=",
+    "cdnroot": "https://mqq-imgcache.gtimg.cn/",
+    "localdevpath": "/Users/hoyang/FiT/fid-fortune/fortune-ui/htdocs",
+    "localsrcpath": "/Users/hoyang/FiT/fid-fortune/fortune-ui/htdocs",
+    "localtrunkpath": "/Users/hoyang/FiT/fid-fortune/fortune-ui-release/htdocs",
+    "platformkey": "web",
+    "projectkey": "fortune",
+    "comparePath": "",
+    "cdndevpath": "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui",
+    "cdnpubpath": "/Users/hoyang/FiT/fid-fortune/cdn_release",
+    "svnsourcepath": "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui",
+    "zippath": "/Users/hoyang/FiT/zipped",
+    "svnpath": "",
+    "jslocalbase": "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res",
+    "jspubbase": "/Users/hoyang/FiT/fid-fortune/fortune-cdn-release/htdocs/res",
+    "buildtype": "PUB",
+    "includevirtualpath": "/caifu",
+    "srcmd5": false,
+    "repoType": "",
+    "versionPath": "",
+    "selectfiles": [
+        "/Users/hoyang/FiT/fid-fortune/fortune-ui-release/htdocs/index.shtml"
+    ]
+}
+[2020-03-17T17:30:10.996] [INFO] buildLog - 解析inc页面: /Users/hoyang/FiT/fid-fortune/fortune-ui-release/htdocs/inc/html/meta.shtml
+[2020-03-17T17:30:10.996] [INFO] buildLog - 解析inc页面: /Users/hoyang/FiT/fid-fortune/fortune-ui-release/htdocs/inc/css/common.shtml
+[2020-03-17T17:30:10.997] [INFO] buildLog - 解析inc页面: /Users/hoyang/FiT/fid-fortune/fortune-ui-release/htdocs/inc/html/viewContainer.shtml
+[2020-03-17T17:30:10.998] [INFO] buildLog - 解析inc页面: /Users/hoyang/FiT/fid-fortune/fortune-ui-release/htdocs/inc/js/dust.shtml
+[2020-03-17T17:30:10.998] [INFO] buildLog - inc页面不存在: /Users/hoyang/FiT/fid-fortune/fortune-ui-release/htdocs/htdocs/caifu/inc/version/web/mch_fortune_manage/index.shtml
+[2020-03-17T17:30:10.999] [INFO] buildLog - 解析入口JS: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/route.js
+[2020-03-17T17:30:12.583] [INFO] buildLog - 依赖模块数据:
+{
+    "/Users/hoyang/FiT/fid-fortune/fortune-ui-release/htdocs/index.shtml": {
+        "root": [
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/route.js"
+        ],
+        "sync": [
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/workbench/list/v.js",
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/list/v.js",
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/product/list/v.js",
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/recommend/list/v.js",
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/fengkong/list/v.js",
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/productsurvey/list/v.js",
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/bankaccount/list/v.js",
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/news/list/v.js",
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/applylist/v.js",
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/approvelist/v.js",
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/solidlist/v.js",
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/passlist/v.js",
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/product/openinterval/openinterval.js",
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/recommend/pool/v.js",
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/recommend/relist/v.js",
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/fengkong/database/v.js",
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/fengkong/log/v.js",
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/productsurvey/database/v.js",
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/productsurvey/log/v.js",
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/stat.js",
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/speed.js",
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/speed/get_network.js",
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/wx_ready.js",
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mobile/weixin/jweixin-1.2.0.js",
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/error/systemBusy/v.js",
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/error/error404/v.js",
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/error/unauthorized/v.js",
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/login/v.js",
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/error/unchrome/v.js",
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/register/v.js",
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/information/list/v.js",
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/workbench/view/v.js",
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/news/create/v.js",
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/news/view/v.js",
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/news/edit/v.js",
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/information/add/v.js",
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/information/view/v.js",
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/fengkong/view/v.js",
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/fengkong/stock/v.js",
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/fengkong/bond/v.js",
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/fengkong/asset/v.js",
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/productsurvey/view/v.js",
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/productsurvey/stock/v.js",
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/productsurvey/bond/v.js",
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/productsurvey/asset/v.js",
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/add/v.js",
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/view/v.js",
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/firstlaunch/v.js",
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/incomeadd/v.js",
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/approveadd/v.js",
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/applyadd/v.js",
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/assemble/v.js",
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/hang/v.js",
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/recommend/add/v.js",
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/recommend/view/v.js",
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/recommend/views/v.js",
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/recommend/readd/v.js",
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/product/intervalview/intervalview.js",
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/product/proCategories/v.js",
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/product/report/v.js",
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/product/view/v.js",
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/product/proToClassified/v.js",
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/product/amountSumTable/v.js",
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/mobile/approvelist/v.js",
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/mobile/approveview/v.js"
+        ],
+        "deps": {
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/route.js": [
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/app.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/vue-router.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/util.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/utils.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/css/g.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/components/header/v.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/components/header/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/components/header/v.tpl",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/routeConfig.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/login.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/ajax.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/dataApi.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/reqwest.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/shift.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/mixins.js"
+            ],
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/workbench/list/v.js": [
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/workbench/list/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/workbench/list/v.tpl",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/workbench/list/api.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/ajax.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/dataApi.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/reqwest.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/shift.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/util.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/viewbase.js"
+            ],
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/list/v.js": [
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/list/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/list/v.tpl",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/list/api.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/ajax.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/dataApi.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/reqwest.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/shift.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/util.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/viewbase.js"
+            ],
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/product/list/v.js": [
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/product/list/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/product/list/v.tpl",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/product/list/api.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/ajax.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/dataApi.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/reqwest.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/shift.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/util.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/viewbase.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/date.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/date.js"
+            ],
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/recommend/list/v.js": [
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/recommend/list/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/recommend/list/v.tpl",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/recommend/list/api.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/ajax.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/dataApi.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/reqwest.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/shift.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/util.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/viewbase.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/date.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/date.js"
+            ],
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/fengkong/list/v.js": [
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/fengkong/list/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/fengkong/list/v.tpl",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/fengkong/list/api.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/ajax.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/dataApi.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/reqwest.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/shift.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/util.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/viewbase.js"
+            ],
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/productsurvey/list/v.js": [
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/productsurvey/list/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/productsurvey/list/v.tpl",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/productsurvey/list/api.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/ajax.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/dataApi.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/reqwest.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/shift.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/util.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/viewbase.js"
+            ],
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/bankaccount/list/v.js": [
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/bankaccount/list/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/bankaccount/list/v.tpl",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/bankaccount/list/api.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/ajax.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/dataApi.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/reqwest.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/shift.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/util.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/viewbase.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/date.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/date.js"
+            ],
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/news/list/v.js": [
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/news/list/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/news/list/v.tpl",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/news/list/api.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/ajax.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/dataApi.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/reqwest.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/shift.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/util.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/viewbase.js"
+            ],
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/applylist/v.js": [
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/applylist/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/applylist/v.tpl",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/applylist/api.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/ajax.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/dataApi.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/reqwest.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/shift.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/util.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/viewbase.js"
+            ],
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/approvelist/v.js": [
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/approvelist/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/approvelist/v.tpl",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/approvelist/api.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/ajax.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/dataApi.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/reqwest.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/shift.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/util.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/viewbase.js"
+            ],
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/solidlist/v.js": [
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/solidlist/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/solidlist/v.tpl",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/solidlist/api.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/ajax.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/dataApi.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/reqwest.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/shift.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/util.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/viewbase.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/components/textarea/v.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/components/textarea/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/components/textarea/v.tpl"
+            ],
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/passlist/v.js": [
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/passlist/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/passlist/v.tpl",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/passlist/api.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/ajax.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/dataApi.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/reqwest.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/shift.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/util.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/viewbase.js"
+            ],
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/product/openinterval/openinterval.js": [
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/product/openinterval/openinterval.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/product/openinterval/openinterval.tpl",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/product/openinterval/api.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/ajax.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/dataApi.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/reqwest.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/shift.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/util.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/viewbase.js"
+            ],
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/recommend/pool/v.js": [
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/recommend/pool/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/recommend/pool/v.tpl",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/recommend/pool/api.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/ajax.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/dataApi.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/reqwest.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/shift.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/util.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/viewbase.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/date.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/date.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/components/textarea/v.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/components/textarea/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/components/textarea/v.tpl"
+            ],
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/recommend/relist/v.js": [
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/recommend/relist/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/recommend/relist/v.tpl",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/recommend/relist/api.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/ajax.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/dataApi.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/reqwest.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/shift.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/util.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/viewbase.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/date.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/date.js"
+            ],
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/fengkong/database/v.js": [
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/fengkong/database/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/fengkong/database/v.tpl",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/fengkong/database/api.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/ajax.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/dataApi.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/reqwest.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/shift.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/util.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/viewbase.js"
+            ],
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/fengkong/log/v.js": [
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/fengkong/log/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/fengkong/log/v.tpl",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/fengkong/log/api.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/ajax.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/dataApi.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/reqwest.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/shift.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/util.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/viewbase.js"
+            ],
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/productsurvey/database/v.js": [
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/productsurvey/database/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/productsurvey/database/v.tpl",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/productsurvey/database/api.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/ajax.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/dataApi.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/reqwest.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/shift.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/util.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/viewbase.js"
+            ],
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/productsurvey/log/v.js": [
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/productsurvey/log/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/productsurvey/log/v.tpl",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/productsurvey/log/api.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/ajax.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/dataApi.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/reqwest.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/shift.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/util.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/viewbase.js"
+            ],
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/stat.js": [
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/get.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/wx_ready.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/util.js"
+            ],
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/speed.js": [
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/wx_ready.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/util.js"
+            ],
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/error/systemBusy/v.js": [
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/error/systemBusy/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/error/systemBusy/v.tpl",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/viewbase.js"
+            ],
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/error/error404/v.js": [
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/error/error404/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/error/error404/v.tpl",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/viewbase.js"
+            ],
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/error/unauthorized/v.js": [
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/error/unauthorized/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/error/unauthorized/v.tpl",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/viewbase.js"
+            ],
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/login/v.js": [
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/login/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/login/v.tpl",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/viewbase.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/login.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/utils.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/ajax.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/dataApi.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/reqwest.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/shift.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/util.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/components/footer/v.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/components/footer/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/components/footer/v.tpl"
+            ],
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/error/unchrome/v.js": [
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/error/unchrome/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/error/unchrome/v.tpl",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/viewbase.js"
+            ],
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/register/v.js": [
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/register/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/register/v.tpl",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/viewbase.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/register/api.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/ajax.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/dataApi.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/reqwest.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/shift.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/util.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/components/footer/v.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/components/footer/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/components/footer/v.tpl"
+            ],
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/information/list/v.js": [
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/information/list/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/information/list/v.tpl",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/information/list/api.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/ajax.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/dataApi.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/reqwest.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/shift.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/util.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/viewbase.js"
+            ],
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/workbench/view/v.js": [
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/workbench/view/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/workbench/view/v.tpl",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/workbench/view/api.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/ajax.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/dataApi.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/reqwest.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/shift.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/util.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/viewbase.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/components/textarea/v.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/components/textarea/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/components/textarea/v.tpl"
+            ],
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/news/create/v.js": [
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/news/create/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/news/create/v.tpl",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/viewbase.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/news/create/api.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/ajax.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/dataApi.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/reqwest.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/shift.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/util.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/news/common/js/api.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/components/textarea/v.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/components/textarea/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/components/textarea/v.tpl",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/components/input/v.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/components/input/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/components/input/v.tpl"
+            ],
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/news/view/v.js": [
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/news/view/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/news/view/v.tpl",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/news/view/api.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/ajax.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/dataApi.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/reqwest.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/shift.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/util.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/viewbase.js"
+            ],
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/news/edit/v.js": [
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/news/edit/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/news/edit/v.tpl",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/viewbase.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/components/textarea/v.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/components/textarea/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/components/textarea/v.tpl",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/components/input/v.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/components/input/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/components/input/v.tpl",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/news/edit/api.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/ajax.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/dataApi.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/reqwest.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/shift.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/util.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/news/common/js/api.js"
+            ],
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/information/add/v.js": [
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/information/add/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/information/add/v.tpl",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/information/add/api.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/ajax.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/dataApi.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/reqwest.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/shift.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/util.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/viewbase.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/components/textarea/v.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/components/textarea/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/components/textarea/v.tpl"
+            ],
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/information/view/v.js": [
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/information/view/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/information/view/v.tpl",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/information/view/api.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/ajax.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/dataApi.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/reqwest.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/shift.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/util.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/viewbase.js"
+            ],
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/fengkong/view/v.js": [
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/fengkong/view/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/fengkong/view/v.tpl",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/fengkong/view/api.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/ajax.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/dataApi.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/reqwest.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/shift.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/util.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/viewbase.js"
+            ],
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/fengkong/stock/v.js": [
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/fengkong/stock/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/fengkong/stock/v.tpl",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/fengkong/stock/api.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/ajax.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/dataApi.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/reqwest.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/shift.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/util.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/viewbase.js"
+            ],
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/fengkong/bond/v.js": [
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/fengkong/bond/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/fengkong/bond/v.tpl",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/fengkong/bond/api.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/ajax.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/dataApi.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/reqwest.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/shift.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/util.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/viewbase.js"
+            ],
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/fengkong/asset/v.js": [
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/fengkong/asset/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/fengkong/asset/v.tpl",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/fengkong/asset/api.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/ajax.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/dataApi.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/reqwest.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/shift.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/util.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/viewbase.js"
+            ],
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/productsurvey/view/v.js": [
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/productsurvey/view/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/productsurvey/view/v.tpl",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/productsurvey/view/api.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/ajax.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/dataApi.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/reqwest.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/shift.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/util.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/viewbase.js"
+            ],
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/productsurvey/stock/v.js": [
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/productsurvey/stock/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/productsurvey/stock/v.tpl",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/productsurvey/stock/api.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/ajax.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/dataApi.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/reqwest.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/shift.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/util.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/viewbase.js"
+            ],
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/productsurvey/bond/v.js": [
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/productsurvey/bond/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/productsurvey/bond/v.tpl",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/productsurvey/bond/api.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/ajax.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/dataApi.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/reqwest.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/shift.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/util.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/viewbase.js"
+            ],
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/productsurvey/asset/v.js": [
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/productsurvey/asset/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/productsurvey/asset/v.tpl",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/productsurvey/asset/api.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/ajax.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/dataApi.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/reqwest.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/shift.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/util.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/viewbase.js"
+            ],
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/add/v.js": [
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/add/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/add/v.tpl",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/add/api.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/ajax.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/dataApi.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/reqwest.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/shift.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/util.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/viewbase.js"
+            ],
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/view/v.js": [
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/view/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/view/v.tpl",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/view/api.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/ajax.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/dataApi.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/reqwest.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/shift.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/util.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/viewbase.js"
+            ],
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/firstlaunch/v.js": [
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/firstlaunch/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/firstlaunch/v.tpl",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/firstlaunch/api.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/ajax.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/dataApi.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/reqwest.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/shift.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/util.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/viewbase.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/components/textarea/v.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/components/textarea/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/components/textarea/v.tpl"
+            ],
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/incomeadd/v.js": [
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/incomeadd/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/incomeadd/v.tpl",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/incomeadd/api.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/ajax.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/dataApi.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/reqwest.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/shift.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/util.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/viewbase.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/components/textarea/v.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/components/textarea/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/components/textarea/v.tpl"
+            ],
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/approveadd/v.js": [
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/approveadd/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/approveadd/v.tpl",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/approveadd/api.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/ajax.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/dataApi.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/reqwest.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/shift.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/util.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/viewbase.js"
+            ],
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/applyadd/v.js": [
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/applyadd/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/applyadd/v.tpl",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/applyadd/api.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/ajax.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/dataApi.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/reqwest.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/shift.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/util.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/viewbase.js"
+            ],
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/assemble/v.js": [
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/assemble/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/assemble/v.tpl",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/assemble/api.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/ajax.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/dataApi.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/reqwest.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/shift.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/util.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/viewbase.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/components/textarea/v.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/components/textarea/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/components/textarea/v.tpl"
+            ],
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/hang/v.js": [
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/hang/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/hang/v.tpl",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/hang/api.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/ajax.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/dataApi.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/reqwest.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/shift.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/util.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/viewbase.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/components/textarea/v.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/components/textarea/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/components/textarea/v.tpl"
+            ],
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/recommend/add/v.js": [
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/recommend/add/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/recommend/add/v.tpl",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/recommend/add/api.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/ajax.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/dataApi.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/reqwest.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/shift.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/util.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/viewbase.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/components/textarea/v.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/components/textarea/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/components/textarea/v.tpl"
+            ],
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/recommend/view/v.js": [
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/recommend/view/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/recommend/view/v.tpl",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/recommend/view/api.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/ajax.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/dataApi.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/reqwest.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/shift.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/util.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/viewbase.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/components/textarea/v.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/components/textarea/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/components/textarea/v.tpl"
+            ],
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/recommend/views/v.js": [
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/recommend/views/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/recommend/views/v.tpl",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/recommend/views/api.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/ajax.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/dataApi.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/reqwest.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/shift.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/util.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/viewbase.js"
+            ],
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/recommend/readd/v.js": [
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/recommend/readd/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/recommend/readd/v.tpl",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/recommend/readd/api.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/ajax.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/dataApi.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/reqwest.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/shift.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/util.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/viewbase.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/components/textarea/v.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/components/textarea/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/components/textarea/v.tpl",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/components/input/v.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/components/input/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/components/input/v.tpl"
+            ],
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/product/intervalview/intervalview.js": [
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/product/intervalview/intervalview.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/product/intervalview/intervalview.tpl",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/product/intervalview/api.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/ajax.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/dataApi.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/reqwest.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/shift.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/util.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/viewbase.js"
+            ],
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/product/proCategories/v.js": [
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/product/proCategories/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/product/proCategories/v.tpl",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/product/proCategories/api.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/ajax.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/dataApi.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/reqwest.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/shift.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/util.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/viewbase.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/components/textarea/v.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/components/textarea/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/components/textarea/v.tpl"
+            ],
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/product/report/v.js": [
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/product/report/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/product/report/v.tpl",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/product/report/api.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/ajax.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/dataApi.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/reqwest.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/shift.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/util.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/viewbase.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/date.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/date.js"
+            ],
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/product/view/v.js": [
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/product/view/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/product/view/v.tpl",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/product/view/api.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/ajax.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/dataApi.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/reqwest.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/shift.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/util.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/viewbase.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/date.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/date.js"
+            ],
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/product/proToClassified/v.js": [
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/product/proToClassified/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/product/proToClassified/v.tpl",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/product/proToClassified/api.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/ajax.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/dataApi.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/reqwest.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/shift.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/util.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/viewbase.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/components/textarea/v.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/components/textarea/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/components/textarea/v.tpl"
+            ],
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/product/amountSumTable/v.js": [
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/product/amountSumTable/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/product/amountSumTable/v.tpl",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/product/amountSumTable/api.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/ajax.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/dataApi.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/reqwest.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/shift.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/util.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/viewbase.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/components/textarea/v.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/components/textarea/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/components/textarea/v.tpl"
+            ],
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/mobile/approvelist/v.js": [
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/css/lib/mint-ui/style.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/css/lib/weui/weui.min.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/mobile/approvelist/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/mobile/approvelist/v.tpl",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/mobile/approvelist/api.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/ajax.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/dataApi.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/reqwest.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/shift.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/util.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/viewbase.js"
+            ],
+            "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/mobile/approveview/v.js": [
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/mobile/approveview/v.css",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/mobile/approveview/v.tpl",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/mobile/approveview/api.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/ajax.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/dataApi.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/reqwest.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/shift.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/util.js",
+                "/Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/viewbase.js"
+            ]
+        }
+    }
+}
+[2020-03-17T17:30:14.115] [INFO] buildLog - 版本文件_global.version地址: /Users/hoyang/FiT/fid-fortune/fortune-ui-release/htdocs/inc/version/web/mch_fortune_manage/_global.version
+[2020-03-17T17:30:15.115] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/app.js
+[2020-03-17T17:30:15.808] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/vue-router.js
+[2020-03-17T17:30:15.983] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/util.js
+[2020-03-17T17:30:16.031] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/utils.js
+[2020-03-17T17:30:16.126] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/components/header/v.js
+[2020-03-17T17:30:16.192] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/routeConfig.js
+[2020-03-17T17:30:16.221] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/login.js
+[2020-03-17T17:30:16.265] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/ajax.js
+[2020-03-17T17:30:16.289] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/dataApi.js
+[2020-03-17T17:30:16.469] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/reqwest.js
+[2020-03-17T17:30:16.477] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/shift.js
+[2020-03-17T17:30:16.526] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/mixins.js
+[2020-03-17T17:30:16.536] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/workbench/list/api.js
+[2020-03-17T17:30:16.564] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/viewbase.js
+[2020-03-17T17:30:16.597] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/list/api.js
+[2020-03-17T17:30:16.647] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/product/list/api.js
+[2020-03-17T17:30:16.656] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/js/date.js
+[2020-03-17T17:30:16.714] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/date.js
+[2020-03-17T17:30:16.730] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/recommend/list/api.js
+[2020-03-17T17:30:16.769] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/fengkong/list/api.js
+[2020-03-17T17:30:16.792] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/productsurvey/list/api.js
+[2020-03-17T17:30:16.818] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/bankaccount/list/api.js
+[2020-03-17T17:30:16.833] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/news/list/api.js
+[2020-03-17T17:30:16.847] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/applylist/api.js
+[2020-03-17T17:30:16.892] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/approvelist/api.js
+[2020-03-17T17:30:16.940] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/solidlist/api.js
+[2020-03-17T17:30:16.949] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/components/textarea/v.js
+[2020-03-17T17:30:16.986] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/passlist/api.js
+[2020-03-17T17:30:16.994] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/product/openinterval/api.js
+[2020-03-17T17:30:17.025] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/recommend/pool/api.js
+[2020-03-17T17:30:17.033] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/recommend/relist/api.js
+[2020-03-17T17:30:17.061] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/fengkong/database/api.js
+[2020-03-17T17:30:17.067] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/fengkong/log/api.js
+[2020-03-17T17:30:17.107] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/productsurvey/database/api.js
+[2020-03-17T17:30:17.114] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/productsurvey/log/api.js
+[2020-03-17T17:30:17.130] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/get.js
+[2020-03-17T17:30:17.154] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/wx_ready.js
+[2020-03-17T17:30:17.203] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/components/footer/v.js
+[2020-03-17T17:30:17.218] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/register/api.js
+[2020-03-17T17:30:17.225] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/information/list/api.js
+[2020-03-17T17:30:17.250] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/workbench/view/api.js
+[2020-03-17T17:30:17.258] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/news/create/api.js
+[2020-03-17T17:30:17.304] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/news/common/js/api.js
+[2020-03-17T17:30:17.328] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/common/components/input/v.js
+[2020-03-17T17:30:17.335] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/news/view/api.js
+[2020-03-17T17:30:17.349] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/news/edit/api.js
+[2020-03-17T17:30:17.365] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/information/add/api.js
+[2020-03-17T17:30:17.373] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/information/view/api.js
+[2020-03-17T17:30:17.444] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/fengkong/view/api.js
+[2020-03-17T17:30:17.454] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/fengkong/stock/api.js
+[2020-03-17T17:30:17.467] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/fengkong/bond/api.js
+[2020-03-17T17:30:17.484] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/fengkong/asset/api.js
+[2020-03-17T17:30:17.519] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/productsurvey/view/api.js
+[2020-03-17T17:30:17.531] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/productsurvey/stock/api.js
+[2020-03-17T17:30:17.538] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/productsurvey/bond/api.js
+[2020-03-17T17:30:17.554] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/productsurvey/asset/api.js
+[2020-03-17T17:30:17.606] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/add/api.js
+[2020-03-17T17:30:17.666] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/view/api.js
+[2020-03-17T17:30:17.711] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/firstlaunch/api.js
+[2020-03-17T17:30:17.802] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/incomeadd/api.js
+[2020-03-17T17:30:17.868] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/approveadd/api.js
+[2020-03-17T17:30:17.888] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/applyadd/api.js
+[2020-03-17T17:30:17.998] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/assemble/api.js
+[2020-03-17T17:30:18.040] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/hang/api.js
+[2020-03-17T17:30:18.056] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/recommend/add/api.js
+[2020-03-17T17:30:18.066] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/recommend/view/api.js
+[2020-03-17T17:30:18.102] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/recommend/views/api.js
+[2020-03-17T17:30:18.112] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/recommend/readd/api.js
+[2020-03-17T17:30:18.133] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/product/intervalview/api.js
+[2020-03-17T17:30:18.185] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/product/proCategories/api.js
+[2020-03-17T17:30:18.205] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/product/report/api.js
+[2020-03-17T17:30:18.218] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/product/view/api.js
+[2020-03-17T17:30:18.241] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/product/proToClassified/api.js
+[2020-03-17T17:30:18.254] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/product/amountSumTable/api.js
+[2020-03-17T17:30:18.265] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/mobile/approvelist/api.js
+[2020-03-17T17:30:18.274] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/mobile/approveview/api.js
+[2020-03-17T17:30:18.335] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/route.js
+[2020-03-17T17:30:18.438] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/workbench/list/v.js
+[2020-03-17T17:30:18.646] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/list/v.js
+[2020-03-17T17:30:19.058] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/product/list/v.js
+[2020-03-17T17:30:19.126] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/recommend/list/v.js
+[2020-03-17T17:30:19.858] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/fengkong/list/v.js
+[2020-03-17T17:30:19.978] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/productsurvey/list/v.js
+[2020-03-17T17:30:20.105] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/bankaccount/list/v.js
+[2020-03-17T17:30:20.149] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/news/list/v.js
+[2020-03-17T17:30:20.197] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/applylist/v.js
+[2020-03-17T17:30:20.708] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/approvelist/v.js
+[2020-03-17T17:30:21.036] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/solidlist/v.js
+[2020-03-17T17:30:21.197] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/passlist/v.js
+[2020-03-17T17:30:21.254] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/product/openinterval/openinterval.js
+[2020-03-17T17:30:21.561] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/recommend/pool/v.js
+[2020-03-17T17:30:21.603] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/recommend/relist/v.js
+[2020-03-17T17:30:21.657] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/fengkong/database/v.js
+[2020-03-17T17:30:21.671] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/fengkong/log/v.js
+[2020-03-17T17:30:21.722] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/productsurvey/database/v.js
+[2020-03-17T17:30:21.741] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/productsurvey/log/v.js
+[2020-03-17T17:30:21.784] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/stat.js
+[2020-03-17T17:30:22.058] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/vue/speed.js
+[2020-03-17T17:30:22.092] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/speed/get_network.js
+[2020-03-17T17:30:22.115] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mod/wx_ready.js
+[2020-03-17T17:30:22.273] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/g/js/mobile/weixin/jweixin-1.2.0.js
+[2020-03-17T17:30:22.288] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/error/systemBusy/v.js
+[2020-03-17T17:30:22.298] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/error/error404/v.js
+[2020-03-17T17:30:22.306] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/error/unauthorized/v.js
+[2020-03-17T17:30:22.314] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/login/v.js
+[2020-03-17T17:30:22.321] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/error/unchrome/v.js
+[2020-03-17T17:30:22.347] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/register/v.js
+[2020-03-17T17:30:22.366] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/information/list/v.js
+[2020-03-17T17:30:22.400] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/workbench/view/v.js
+[2020-03-17T17:30:22.480] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/news/create/v.js
+[2020-03-17T17:30:22.512] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/news/view/v.js
+[2020-03-17T17:30:22.593] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/news/edit/v.js
+[2020-03-17T17:30:22.664] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/information/add/v.js
+[2020-03-17T17:30:22.707] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/information/view/v.js
+[2020-03-17T17:30:23.146] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/fengkong/view/v.js
+[2020-03-17T17:30:23.210] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/fengkong/stock/v.js
+[2020-03-17T17:30:23.233] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/fengkong/bond/v.js
+[2020-03-17T17:30:23.258] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/fengkong/asset/v.js
+[2020-03-17T17:30:23.479] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/productsurvey/view/v.js
+[2020-03-17T17:30:23.499] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/productsurvey/stock/v.js
+[2020-03-17T17:30:23.511] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/productsurvey/bond/v.js
+[2020-03-17T17:30:23.570] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/productsurvey/asset/v.js
+[2020-03-17T17:30:23.989] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/add/v.js
+[2020-03-17T17:30:24.305] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/view/v.js
+[2020-03-17T17:30:24.643] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/firstlaunch/v.js
+[2020-03-17T17:30:24.953] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/incomeadd/v.js
+[2020-03-17T17:30:25.613] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/approveadd/v.js
+[2020-03-17T17:30:26.096] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/applyadd/v.js
+[2020-03-17T17:30:26.550] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/assemble/v.js
+[2020-03-17T17:30:26.866] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/assetenter/hang/v.js
+[2020-03-17T17:30:26.980] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/recommend/add/v.js
+[2020-03-17T17:30:27.048] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/recommend/view/v.js
+[2020-03-17T17:30:27.131] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/recommend/views/v.js
+[2020-03-17T17:30:27.189] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/recommend/readd/v.js
+[2020-03-17T17:30:27.249] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/product/intervalview/intervalview.js
+[2020-03-17T17:30:27.371] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/product/proCategories/v.js
+[2020-03-17T17:30:27.435] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/product/report/v.js
+[2020-03-17T17:30:27.617] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/product/view/v.js
+[2020-03-17T17:30:27.679] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/product/proToClassified/v.js
+[2020-03-17T17:30:27.713] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/product/amountSumTable/v.js
+[2020-03-17T17:30:27.778] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/mobile/approvelist/v.js
+[2020-03-17T17:30:27.815] [INFO] buildLog - 版本相同不构建: /Users/hoyang/FiT/fid-fortune/fortune-cdn-ui/htdocs/res/web/mch_fortune_manage/mobile/approveview/v.js

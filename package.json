@@ -1,0 +1,44 @@
+{
+  "name": "dustjs-builder",
+  "version": "1.0.0",
+  "description": "dustjs builder",
+  "dependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/plugin-transform-runtime": "^7.8.3",
+    "@babel/polyfill": "^7.0.0",
+    "@babel/preset-env": "^7.8.7",
+    "@babel/runtime": "^7.1.2",
+    "Q": "0.0.1",
+    "classnames": "^2.2.5",
+    "cmd-util": "^0.3.13",
+    "directory-tree": "^1.2.1",
+    "escodegen": "^1.11.0",
+    "esprima": "^4.0.1",
+    "estraverse": "^4.2.0",
+    "fs-extra": "^3.0.1",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^3.7.0",
+    "gulp-filter": "^5.0.0",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-save": "^1.2.1",
+    "gulp-uglify": "3.0.2",
+    "gulp-zip": "^4.0.0",
+    "log4js": "^3.0.6",
+    "md5-file": "^4.0.0",
+    "moment": "^2.24.0",
+    "normalize-path": "^2.1.1",
+    "orchestrator": "^0.3.8",
+    "uglify-js": "^2.6.2",
+    "useref": "^1.4.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "keithytsai <keithytsai>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "http://git.code.oa.com/path/to/project.git"
+  }
+}

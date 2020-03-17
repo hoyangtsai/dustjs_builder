@@ -1,0 +1,18 @@
+1.使用方式：
+	var tid_modelparse = require("tid_modelparse");
+	tid_modelparse.parse("F:/dev_branches/qqrp/htdocs/res/mqq/credit/js/index",function(alldeps) {
+		console.log("alldeps.size:" + alldeps.size);
+		alldeps.forEach(function(value){
+			console.log(value);
+		});
+	});
+2.返回数据
+	alldeps 为set类型数据
+	set 相关操作：https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set/forEach
+3.解析实例
+	解析输入：F:/dev_branches/qqrp/htdocs/res/mqq/credit/js/index
+	解析返回：
+	F:/dev_branches/qqrp/htdocs/res/mqq/g/js/mod/global/safe
+	F:/dev_branches/qqrp/htdocs/res/mqq/credit/js/global/statecheck
+	F:/dev_branches/qqrp/htdocs/res/mqq/credit/js/global/authtips
+	F:/dev_branches/qqrp/htdocs/res/mqq/credit/js/global/auth
